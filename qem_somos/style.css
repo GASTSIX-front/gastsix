@@ -1,1 +1,107 @@
-*{}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --branco: #ffffff;
+    --font1: Verdana;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*Deixar um determinado texto com todas as suas letras minúsculas*/
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(90.05deg, #000000 24.85%, #006384 64.76%, #002F45 99.45%), #006384;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+}
+
+.botao_nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco);
+    align-items: center;
+    width: 96%;
+}
+
+.logo {
+    width: 5%;
+}
+
+.botao_fechar svg {
+    fill: var(--branco);
+    text-decoration: none;
+    height: 40px;
+}
+
+h3 {
+    font-size: 50px;
+    color: var(--branco);
+    font-weight: bold;
+    font-family: var(--font1);
+}
+
+.div_quemsomos {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhamento_quemsomos {
+    padding: 30px;
+    text-transform: uppercase;
+    /*Deixar um determinado texto com todas as suas letras minúsculas*/
+}
+
+.alinhamento_central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alinhamento_logo_texto {
+    background-color: rgba(0, 86, 115, 0.09);
+    border: 0.3px solid #C8D5DC;
+    box-shadow: 0px 4px 19px rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(6.5px);
+    border-radius: 24px;
+    width: 964px;
+    /* height: 671px; */
+    height: fit-content;
+    padding: 0 0 20px;
+}
+
+.alinhamento_logo_texto img {
+    width: 40%;
+}
+
+.alinhamento_texto p {
+    font-family: var(--font1);
+    font-size: 18px;
+    color: var(--branco);
+    padding: 10px;
+    text-align: center;
+}
+
+
+/*BANNER*/
+
+.banner {
+    background-image: url(../img/background.png);
+    height: 944px;
+    background-size: cover;
+}
