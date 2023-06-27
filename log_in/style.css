@@ -53,23 +53,22 @@ main {
     box-shadow: 0px 4px 19px rgba(255, 255, 255, 0.25);
     backdrop-filter: blur(15px);
     color: #C8D5DC;
-    width: 250px;
-    height: 400px;
+    width: 440px;
+    height: 490px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
 }
 
 .box_login button {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0073B0 100%);
     border: 1px solid #C8D5DC;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 10px;
+    border-radius: 20px;
     text-transform: uppercase;
     color: #C8D5DC;
-    width: 50%;
+    width: 40%;
     height: 7%;
     display: flex;
     justify-content: center;
@@ -85,7 +84,12 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100px;
+    height: 150px;
+    width: 300px;
+}
+
+.usuario label, .senha label{
+    margin-bottom: 15px;
 }
 
 input {
@@ -93,17 +97,26 @@ input {
     filter: drop-shadow(0px 4px 13px #000000);
     border-radius: 5px;
     background-color: #002F45;
+    height: 30px;
+    width: 100%;
 }
+
 
 footer {
     height: 10%;
-    color: #C8D5DC;
     text-transform: uppercase;
-    font-size: 15px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
+}
+
+footer a{
+    color: #C8D5DC;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .usuario,
@@ -115,19 +128,20 @@ footer {
 .div_header_1,
 .div_header_2,
 .div_header_3 {
-    width: 100px;
+    width: 40px;
+    fill: #C8D5DC;
 }
 
 @media screen and (max-width: 768px) {
     header {
-        font-size: 10px;
+        font-size: 15px;
 
     }
 
     .div_header_1,
     .div_header_2,
     .div_header_3 {
-        width: 50px;
+        width: 30px;
     }
 
     .div_header_3 a img {
@@ -143,10 +157,17 @@ footer {
         height: 100%;
     }
 
+    .box_login{
+        width: 50%;
+        height: 420px;
+        border-radius: 10px;
+    }
+
     .big_logo {
         align-items: center;
         display: flex;
         justify-content: center;
+        width: 25%;
     }
 
     footer {
