@@ -82,7 +82,13 @@ header h1 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    background-color: aquamarine;
 }
+
+.dash img {
+    width: 50%;
+}
+
 
 /* INICIO MENU INTERATIVO*/
 
@@ -249,9 +255,23 @@ hr {
 
 @media screen and(max-width: 768px){
 
-.dash{
+    /*HEADER*/
+.div_header_1{
+    font-size: 18px;
+}    
 
+.div_header_2{
+    font-size: 20px;
 }
 
+.botao_fechar svg {
+    fill: var(--branco);
+    text-decoration: none;
+    height: 35px;
+}
+
+.dash img{
+    width:10% ;
+}
 }
     
