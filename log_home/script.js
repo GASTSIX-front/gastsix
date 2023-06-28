@@ -109,7 +109,3 @@ function mostrar_menu_relatorios(){
         menu_relatorios_aberto.setAttribute("aria-expandede","false")
     }
 }
-
-
-
-
