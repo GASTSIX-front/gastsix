@@ -9,7 +9,7 @@
 
     <link rel="shortcut icon" href="../img/LOGO.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"defer></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
@@ -50,7 +50,7 @@
                 </svg>
             </a>
             <nav id="menu_lateral" class="menu_lateral">
-                <a href=""> <img src="img/menu_superior.png" alt=""></a>
+                <a href=""> <img src="../img/menu_superior.png" alt=""></a>
 
                 <a id="menu_cadastro_aberto" aria-label="abrir menu" aria-controls="menu_lateral_cadastro"
                     aria-expanded="false" aria-haspopup="true" class="menu_cadastro_aberto" href="#"
@@ -69,7 +69,7 @@
                     onclick="mostrar_menu_relatorios()">relatórios ></a>
                 <hr />
                 <a href="">sair</a>
-                <a href=""> <img src="img/menu_inferior.png" alt=""></a>
+                <a href=""> <img src="../img/menu_inferior.png" alt=""></a>
             </nav>
         </aside>
         <!-- MENU CADASTROS -->
@@ -117,11 +117,54 @@
         </aside>
 
         <section class="dash">
-            <img src="../img/dash.png" alt="">
+
+            <div class="dash_1">
+                <div class="grafico_titulo">
+                    <h2>produção em segundos</h2>
+                </div>
+                <div class="barra_externa_prod_segundo">
+                    <div class="barra_interna_prod_segundo_1"></div>
+                </div>
+                <div class="barra_externa_prod_segundo">
+                    <div class="barra_interna_prod_segundo_2"></div>
+                </div>
+                <div class="barra_externa_prod_segundo">
+                    <div class="barra_interna_prod_segundo_3"></div>
+                </div>
+
+            </div>
+
+            <div class="dash_2">
+                <h2 class="grafico_titulo">quantidade produzida por hora</h2>
+
+                <div class="container_pizza">
+                    <span class="pizza">
+                        <span class="color_tcross"></span>
+                        <p class="car">34%</p>
+                    </span>
+                    <span class="pizza">
+                        <span class="color_polo"></span>
+                        <p class="car">30%</p>
+                    </span>
+                    <span class="pizza">
+                        <span class="color_virtus"></span>
+                        <p class="car">36%</p>
+                    </span>
+                </div>
+
+
+
+
+            </div>
+
+
+
+
+
         </section>
 
     </main>
-    
+
 </body>
 
 </html>
