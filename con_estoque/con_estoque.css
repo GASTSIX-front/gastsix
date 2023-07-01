@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --branco: #ffffff;
+    --font1: Verdana;
+}
+    
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(90.05deg, #000000 24.85%, #006384 64.76%, #002F45 99.45%), #006384;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+}
+.botao_nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco);
+    align-items: center;
+    width: 96%;
+}
+.logo {
+    width: 5%;
+}
+.botao_fechar svg {
+    fill: var(--branco);
+    text-decoration: none;
+    height: 40px;
+}
+
+main {
+    background-image: url(../img/background.png); 
+     /* height: auto;  */
+    height: 944px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* INICIO MENU INTERATIVO*/
+
+.posiciomaneto_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.posiciomaneto_menu img {
+    width: 100px;
+}  
+.menu_barras{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    display: initial;  
+}
+.menu_lateral{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+    display: none;    
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    top: 100px; 
+    font-weight: bold;
+} 
+.menu_lateral a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20PX; 
+} 
+.menu_lateral a img{
+    width: 100%;
+}
+hr {
+    width: 90px;
+    height: 2px;
+    background-color: var(--branco);
+}
+
+.menu_barras svg{
+    height: 60px;
+}
+
+/*MENU CADASTRO*/
+
+.menu_lateral_cadastro{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px);  
+    border-radius: 5%;
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+    display: none;  
+    z-index: 1; 
+    position: absolute;
+    left: 230px;
+    top: 220px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_cadastro a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+
+/*MENU ESTOQUE*/
+ 
+.menu_lateral_estoque{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    border-radius: 5%;
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 290px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_estoque a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+}  
+/*MENU PEDIDOS*/
+ 
+.menu_lateral_pedidos{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    border-radius: 5%; 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 360px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+    
+} 
+.menu_lateral_pedidos a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+
+/*MENU RELATORIOS*/
+ 
+.menu_lateral_relatorios {
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px);  
+    border-radius: 5%; 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 420px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_relatorios a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+/* FINAL MENU INTERATIVO*/
+
+.secao_table{
+    background: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(4px); 
+    border-radius: 5px;
+    width: 160%;
+    height: 50px;
+    padding: 10px 0 20px 0;
+    margin: 50px;
+    justify-content: space-between;
+}
+
+.secao_table tr{
+    align-items: center;
+    padding: 10px 0 20px 30px;
+}
+
+.secao_table td{
+    align-items: center;
+    padding: 10px 0 20px 40px;
+}
+
+table * {
+    border: 1px solid var(--branco);
+    width: 20%;
+}
+
+.logo a img{
+    width: 90px;
+    height: 90px;
+}
+
+.datas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+    margin-bottom: 50px;
+
+    
+}
+
+.sec_datas{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+}
+
+.data_inicial,
+.data_final,
+main{
+    display: flex;
+    flex-direction: column;
+    color: #C8D5DC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn_visualizar button{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0073B0 100%);
+    border: 1px solid #C8D5DC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #C8D5DC;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+.botoes button{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #0073B0 100%);
+    border: 1px solid #C8D5DC;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: #C8D5DC;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botoes {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;    
+}
