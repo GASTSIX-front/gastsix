@@ -54,6 +54,157 @@ header {
     background-size: cover;
 }
 
+/* INICIO MENU INTERATIVO*/
+
+.posiciomaneto_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+.posiciomaneto_menu img {
+    width: 100px;
+}  
+.menu_barras{
+    position: absolute;
+    left: 40px;
+    top: 140px;
+    display: initial;  
+}
+.menu_lateral{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+    display: none;    
+    z-index: 1;
+    position: absolute;
+    left: 30px;
+    top: 100px; 
+    font-weight: bold;
+} 
+.menu_lateral a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20PX; 
+} 
+.menu_lateral a img{
+    width: 100%;
+}
+hr {
+    width: 90px;
+    height: 2px;
+    background-color: var(--branco);
+}
+
+.menu_barras svg{
+    height: 60px;
+}
+
+/*MENU CADASTRO*/
+
+.menu_lateral_cadastro{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px);  
+    border-radius: 5%;
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+    display: none;  
+    z-index: 1; 
+    position: absolute;
+    left: 230px;
+    top: 220px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_cadastro a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+
+/*MENU ESTOQUE*/
+ 
+.menu_lateral_estoque{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    border-radius: 5%;
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 290px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_estoque a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+}  
+/*MENU PEDIDOS*/
+ 
+.menu_lateral_pedidos{
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px); 
+    border-radius: 5%; 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 360px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+    
+} 
+.menu_lateral_pedidos a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+
+/*MENU RELATORIOS*/
+ 
+.menu_lateral_relatorios {
+    background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px);  
+    border-radius: 5%; 
+    font-family: var(--font1);
+    flex-direction: column;
+    align-items: center;
+     display: none;
+     z-index: 1; 
+     position: absolute;
+    left: 230px;
+    top: 420px;  
+    font-weight: bold;
+    border: 1px solid var(--branco);
+} 
+.menu_lateral_relatorios a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 15px; 
+} 
+/* FINAL MENU INTERATIVO*/
+
 /*FORMULARIO*/
 
 .section__formulario {
