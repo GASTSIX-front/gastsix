@@ -264,7 +264,23 @@ hr {
     font-size: 15px;
 }
 
-.dash_1 {
+.dash{
+    align-items: center;
+}
+
+.dash img{
+    width: 50%;
+}
+
+.primeiros_dashs{
+    display: flex;
+}
+.segundos_dash{
+    display: flex;
+}
+
+    /*
+    .dash_1 {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -351,6 +367,7 @@ hr {
 
 
 
+
 .grafico_titulo {
     color: var(--branco);
     text-transform: uppercase;
@@ -414,6 +431,7 @@ hr {
                   var(--color_virtus) 36%)
 
     }
+    */
 
     /*Responsivo*/
 
@@ -424,8 +442,8 @@ hr {
             font-size: 18px;
         }
 
-        .div_header_2 {
-            font-size: 20px;
+        .div_header_2 h2{
+            font-size: 15px;
         }
 
         .botao_fechar svg {
@@ -434,5 +452,17 @@ hr {
             height: 35px;
         }
 
+        .primeiros_dashs,
+        .segundos_dash{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .dash img{
+            width: 50%;
+        }
+
 
     }
+
+    
