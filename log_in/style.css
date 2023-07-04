@@ -88,7 +88,8 @@ main {
     width: 300px;
 }
 
-.usuario label, .senha label{
+.usuario label,
+.senha label {
     margin-bottom: 15px;
 }
 
@@ -108,10 +109,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 }
 
-footer a{
+footer a {
     color: #C8D5DC;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -131,6 +132,17 @@ footer a{
     width: 40px;
     fill: #C8D5DC;
 }
+
+.btnLogon {
+    height: 100px;
+    width: 40%;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
 
 @media screen and (max-width: 768px) {
     header {
@@ -157,7 +169,7 @@ footer a{
         height: 100%;
     }
 
-    .box_login{
+    .box_login {
         width: 50%;
         height: 420px;
         border-radius: 10px;
