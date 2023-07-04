@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --branco: #ffffff;
+    --font1: Verdana;
+}
+    
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+header {
+    background: linear-gradient(90.05deg, #000000 24.85%, #006384 64.76%, #002F45 99.45%), #006384;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    text-transform: uppercase;
+    font-family: var(--font1);
+    display: flex;
+    justify-content: center;
+}
+
+.botao_nav {
+    display: flex;
+    justify-content: space-between;
+    color: var(--branco);
+    align-items: center;
+    width: 96%;
+}
+.logo {
+    width: 5%;
+   
+}
+.botao_fechar svg {
+    fill: var(--branco);
+    text-decoration: none;
+    height: 40px;
+}
+
+/*BANNER*/
+
+.banner {
+    background-image: url(../img/background.png); 
+    height: 944px;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.posiciomaneto_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+}
+
+.menu_barras{
+        position: absolute;
+        left: 10px;
+        top: 500px;
+    }
+
+ .posiciomaneto_menu img {
+    width: 100px;
+
+} 
+ .menu_lateral {
+    /* background-color: bisque; */
+    background: radial-gradient(50% 50% at 50% 50%, rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
+    backdrop-filter: blur(48.5px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+
+} 
+  .menu_lateral a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    /* font-family: var(--font1); */
+    padding: 20px;
+    font-size: 20PX; 
+    
+} 
+.menu_lateral a img{
+    width: 100%;
+    
+
+   
+
+    /* background-color: aqua;
+    font-size: 30px;
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: var(--font1);
+    padding: 30px;
+    font-size: 30PX;  */
+} 
+
+
+.menu_barras {}
+
+hr {
+    width: 90px;
+    height: 2px;
+    background-color: var(--branco);
+}
+
+/*..........*/
+
+
+.menu_barras{
+    display: initial;  
+}
+
+.menu_barras svg{
+    height: 60px;
+  
+}
+.menu_barras{
+    position: absolute;
+    left: 30px;
+    top: 470px; 
+}
+.menu_barras{
+    display: initial;  
+}
+
+ .menu_lateral{
+    display: none;
+    position: absolute;    
+    /* background: rgba(44, 43, 43, 0.11);
+    backdrop-filter: blur(20px); */
+    flex-direction: column;
+    z-index: 1;
+    left: 90px;  
+    top: 110px;
+    position: absolute;
+    left: 30px;
+    top: 250px; 
+} 
+
+/*------------*/
+
+
+/* SECAO FORMULARIO*/
+
+.section_formulario { 
+    display: flex; 
+     align-items: center;
+    justify-content: center; 
+     width: calc(100% - 350px);
+    width: 50%;
+}
+.formulario_central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 90%;
+    max-width: 700px; */
+    width: 100%;
+}
+.div_alinhamento_campos {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 100%;
+    color: var(--branco); 
+} 
+ 
+.div_alinhamento_botao_cadastrar{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    padding: 30px 0 0 0;
+}
+
+.div_alinhamento_funcao_data{
+    display: flex;
+    justify-content: space-between;
+    /* width: 100%;
+    max-width: 700px;  */
+    color: var(--branco); 
+    font-size: 20px;
+    width: 100%;
+}
+
+.div_alinhamento_funcao_data .div_alinhamento_data{
+    display: flex;
+    flex-direction: column;
+    width: 35%;  
+}
+.div_alinhamento_funcao_data .div_alinhamento_data input{
+    background-color: #006384; 
+    color: var(--branco); 
+    font-size: 15px;
+    background: rgba(255, 255, 255, 0.11);
+    backdrop-filter: blur(4px);
+    border-radius: 5px;
+    margin-top: 11px;
+    margin-bottom: 28px;
+    height: 35px; 
+}
+
+.img_rel_estoque{
+    background-color: #ffffff;
+     width: 120%;
+     margin: 200px;
+}
+.botao_gerar{
+    height: 50px;
+
+
+    width: 40%;
+    border-radius: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;  
+}
+
+/*Respansividade*/
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 20px;
+    }
+    .botao_fechar svg {
+        height: 25px;
+    }
+    .posiciomaneto_menu {
+       width: auto;
+    }
+    .menu_lateral a {
+        font-size: 15px;
+        padding: 18px;
+    }
+    .menu_barras{
+        display: initial;  
+    }
+    .menu_barras svg{
+        height: 40px;
+        fill: var(--branco);
+    }
+    .menu_lateral_logo{
+        display: none;
+    }
+    .menu_lateral{
+        display: none;
+        position: absolute;    
+        background: rgba(44, 43, 43, 0.11);
+        backdrop-filter: blur(20px);
+        flex-direction: column;
+        z-index: 1;
+        border-radius: 30px;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        left: 50px;  
+        top: 100px; 
+    }
+     .menu_lateral img {
+        width: 50px;
+    }
+    .menu_barras{
+        position: absolute;
+        left: 50px;
+        top: 100px;    
+    }
+    hr {
+        width: 60px;
+        height: 2px;
+        background-color: var(--branco);
+    }
+    .formulario_central{
+        padding: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .section_formulario{
+        width: 100%;
+    }
+    .div_alinhamento_funcao_data{
+        display: flex;
+        flex-direction: column;
+    }
+    .div_alinhamento_funcao_data .div_alinhamento_funcao {
+        max-width: 477px;
+        width: 100%;
+    }
+    .div_alinhamento_funcao_data .div_alinhamento_data{
+        max-width: 477px;
+        width: 100%;
+    }
+    .div_alinhamento_botao_cadastrar{
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+        
+
+    .botao_gerar{
+        width: 100%;
+    }
+
+}
