@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url(../img/background.png);
+    background-image: url(./img/background.png);
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 650px;
