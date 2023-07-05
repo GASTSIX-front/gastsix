@@ -88,8 +88,7 @@ main {
     width: 300px;
 }
 
-.usuario label,
-.senha label {
+.usuario label, .senha label{
     margin-bottom: 15px;
 }
 
@@ -109,10 +108,10 @@ footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
+    
 }
 
-footer a {
+footer a{
     color: #C8D5DC;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -133,20 +132,10 @@ footer a {
     fill: #C8D5DC;
 }
 
-.btnLogon {
-    height: 100px;
-    width: 40%;
-    border-radius: 10px;
-    font-size: 13px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-
-
 @media screen and (max-width: 768px) {
     header {
         font-size: 15px;
+        width: 100%;
 
     }
 
@@ -169,20 +158,21 @@ footer a {
         height: 100%;
     }
 
-    .box_login {
-        width: 50%;
+    .box_login{
+        width: 85%;
         height: 420px;
         border-radius: 10px;
+        align-items: center;
     }
 
     .big_logo {
         align-items: center;
         display: flex;
         justify-content: center;
-        width: 25%;
+        width: 40%;
     }
 
-    footer {
+    footer a{
         font-size: 10px
     }
 
@@ -191,6 +181,11 @@ footer a {
         border: 1px solid #FFF;
         background: rgba(200, 213, 220, 0.00);
         box-shadow: 0px 4px 13px 0px #000;
+        width: 80%;
+    }
+
+    .preenchimentos{
+        width: 80%;
     }
 
 
