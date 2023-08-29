@@ -58,25 +58,23 @@ header {
 }
 
 /* INICIO MENU INTERATIVO*/
+
 .posiciomaneto_menu {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 350px;
 }
-
 .posiciomaneto_menu img {
     width: 100px;
 }
-
-.menu_barras {
+.menu_barras{
     position: absolute;
     left: 40px;
     top: 140px;
     display: initial;
 }
-
-.menu_lateral {
+.menu_lateral{
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
     backdrop-filter: blur(48.5px);
     font-family: var(--font1);
@@ -89,7 +87,6 @@ header {
     top: 100px;
     font-weight: bold;
 }
-
 .menu_lateral a {
     color: var(--branco);
     text-transform: uppercase;
@@ -97,24 +94,21 @@ header {
     padding: 20px;
     font-size: 20PX;
 }
-
-.menu_lateral a img {
+.menu_lateral a img{
     width: 100%;
 }
-
 hr {
     width: 90px;
     height: 2px;
     background-color: var(--branco);
 }
-
-.menu_barras svg {
+.menu_barras svg{
     height: 60px;
 }
 
 /*MENU CADASTRO*/
 
-.menu_lateral_cadastro {
+.menu_lateral_cadastro{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
     backdrop-filter: blur(48.5px);
     border-radius: 5%;
@@ -129,7 +123,6 @@ hr {
     font-weight: bold;
     border: 1px solid var(--branco);
 }
-
 .menu_lateral_cadastro a {
     color: var(--branco);
     text-transform: uppercase;
@@ -140,22 +133,21 @@ hr {
 
 /*MENU ESTOQUE*/
 
-.menu_lateral_estoque {
+.menu_lateral_estoque{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
     backdrop-filter: blur(48.5px);
     border-radius: 5%;
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;
+     z-index: 1;
+     position: absolute;
     left: 230px;
     top: 290px;
     font-weight: bold;
     border: 1px solid var(--branco);
 }
-
 .menu_lateral_estoque a {
     color: var(--branco);
     text-transform: uppercase;
@@ -166,23 +158,21 @@ hr {
 
 /*MENU PEDIDOS*/
 
-.menu_lateral_pedidos {
+.menu_lateral_pedidos{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
     backdrop-filter: blur(48.5px);
     border-radius: 5%;
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;
+     z-index: 1;
+     position: absolute;
     left: 230px;
     top: 360px;
     font-weight: bold;
     border: 1px solid var(--branco);
-
 }
-
 .menu_lateral_pedidos a {
     color: var(--branco);
     text-transform: uppercase;
@@ -200,15 +190,14 @@ hr {
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;
+     z-index: 1;
+     position: absolute;
     left: 230px;
     top: 420px;
     font-weight: bold;
     border: 1px solid var(--branco);
 }
-
 .menu_lateral_relatorios a {
     color: var(--branco);
     text-transform: uppercase;
@@ -216,12 +205,7 @@ hr {
     padding: 20px;
     font-size: 15px;
 }
-
 /* FINAL MENU INTERATIVO*/
-
-
-
-
 
 /* SECAO FORMULARIO*/
 .section__formulario {
@@ -229,6 +213,7 @@ hr {
     align-items: center;
     justify-content: center;
     width: calc(100% - 350px);
+    width: 50%;
 }
 .formulario-central {
     display: flex;
@@ -236,6 +221,7 @@ hr {
     align-items: center;
     width: 90%;
     max-width: 700px;
+    font-family: var(--font1);
 }
 .div__alinhamento_campos {
     display: flex;
@@ -243,7 +229,7 @@ hr {
     font-size: 20px;
     width: 100%;
     color: var(--branco);
-}  
+}
 
 .div__alinhamento_campos input {
         margin-top: 11px;
@@ -259,47 +245,48 @@ hr {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    max-width: 700px; 
-    color: var(--branco); 
+    max-width: 700px;
+    color: var(--branco);
     font-size: 20px;
 }
 
 .div__alinhamento_funcao_data .div__alinhamento__funcao{
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
     width: 40%;
-
 }
 .div__alinhamento_funcao_data .div__alinhamento__funcao select{
-    color: var(--branco); 
+    color: var(--branco);
     font-size: 15px;
     background: rgba(255, 255, 255, 0.11);
     backdrop-filter: blur(4px);
     border-radius: 5px;
     margin-top: 11px;
     margin-bottom: 28px;
-    height: 35px;    
+    height: 35px;
+    font-family: var(--font1);
 }
 .div__alinhamento_funcao_data .div__alinhamento__funcao option{
-    color: #000000; 
+    color: #000000;
     font-size: 15px;
+    font-family: var(--font1);
 }
 
 .div__alinhamento_funcao_data .div__alinhamento__data{
     display: flex;
     flex-direction: column;
-    width: 40%;  
+    width: 40%;
 }
 .div__alinhamento_funcao_data .div__alinhamento__data input{
-    background-color: #006384; 
-    color: var(--branco); 
+    background-color: #006384;
+    color: var(--branco);
     font-size: 15px;
     background: rgba(255, 255, 255, 0.11);
     backdrop-filter: blur(4px);
     border-radius: 5px;
     margin-top: 11px;
     margin-bottom: 28px;
-    height: 35px; 
+    height: 35px;
 }
 .botao_cadastrar{
     height: 50px;
@@ -307,7 +294,8 @@ hr {
     border-radius: 10px;
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;  
+    font-weight: bold;
+    font-family: var(--font1);
 }
 
 
@@ -318,41 +306,50 @@ hr {
     h1 {
         font-size: 15px;
     }
+    .banner{
+        height: 1500px;
+    }
+    .botao_fechar svg {
+        height: 15px;
+    }
+    .div__alinhamento_campos{
+        font-size: 15px;
+    }
+    .div__alinhamento__data{
+        font-size: 15px;
+    }
+    .div__alinhamento__funcao{
+        font-size: 15px;
+    }
 
     /* INICIO MENU INTERATIVO*/
-    .menu_lateral {
+    .menu_lateral{
         display: none;
         position: absolute;
         flex-direction: column;
         z-index: 1;
-        left: 30px;
+        left: 50px;
         top: 90px;
     }
-
     .menu_lateral a {
         font-size: 10px;
         padding: 10px;
     }
-
-    .menu_lateral a img {
+    .menu_lateral a img{
         width: 80px;
     }
-
-    .menu_barras svg {
+    .menu_barras svg{
         height: 40px;
     }
-
     .menu_lateral img {
-        width: 50px;
+        width: 80px;
     }
-
-    .menu_barras {
+    .menu_barras{
         position: absolute;
-        left: 0px;
+        left: 10px;
         top: 90px;
         display: initial;
     }
-
     hr {
         width: 60px;
         height: 2px;
@@ -361,92 +358,81 @@ hr {
 
     /*MENU CADASTRO*/
 
-    .menu_lateral_cadastro {
-        font-size: 10px;
-        position: absolute;
-        left: 150px;
-        top: 150px;
-    }
+.menu_lateral_cadastro{
+    font-size: 10px;
+    position: absolute;
+    left: 150px;
+    top: 150px;
+}
+.menu_lateral_cadastro a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+}
 
-    .menu_lateral_cadastro a {
-        color: var(--branco);
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 7px;
-        font-size: 10px;
-    }
+/*MENU ESTOQUE*/
 
-    /*MENU ESTOQUE*/
+.menu_lateral_estoque{
+    font-size: 10px;
+    position: absolute;
+    left: 150px;
+    top: 185px;
+}
+.menu_lateral_estoque a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+}
 
-    .menu_lateral_estoque {
-        font-size: 10px;
-        position: absolute;
-        left: 150px;
-        top: 185px;
-    }
+/*MENU PEDIDOS*/
 
-    .menu_lateral_estoque a {
-        color: var(--branco);
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 7px;
-        font-size: 10px;
-    }
+.menu_lateral_pedidos{
+    font-size: 10px;
+    position: absolute;
+    left: 150px;
+    top: 220px;
+}
+.menu_lateral_pedidos a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+}
 
-    /*MENU PEDIDOS*/
+/*MENU RELATORIOS*/
 
-    .menu_lateral_pedidos {
-        font-size: 10px;
-        position: absolute;
-        left: 150px;
-        top: 220px;
-    }
+.menu_lateral_relatorios {
+    font-size: 10px;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+}
+.menu_lateral_relatorios a {
+    color: var(--branco);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 7px;
+    font-size: 10px;
+}
+/* FINAL MENU INTERATIVO*/
 
-    .menu_lateral_pedidos a {
-        color: var(--branco);
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 7px;
-        font-size: 10px;
-    }
-
-    /*MENU RELATORIOS*/
-
-    .menu_lateral_relatorios {
-        font-size: 10px;
-        position: absolute;
-        left: 150px;
-        top: 250px;
-    }
-
-    .menu_lateral_relatorios a {
-        color: var(--branco);
-        text-transform: uppercase;
-        text-decoration: none;
-        padding: 7px;
-        font-size: 10px;
-    }
-
-    /* FINAL MENU INTERATIVO*/
-
-    .formulario-central {
-        padding: 100px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: 20px;
-    }
+    /* FORMULARIO CENTRAL*/
 
     .section__formulario {
-        width: 100%;
+        width: 80%;
     }
 
     .div__alinhamento_funcao_data {
         display: flex;
         flex-direction: column;
-    }
+    } 
 
-    .div__alinhamento_funcao_data .div__alinhamento__funcao {
+   .div__alinhamento_funcao_data .div__alinhamento__funcao {
         max-width: 477px;
         width: 100%;
     }
@@ -454,6 +440,11 @@ hr {
     .div__alinhamento_funcao_data .div__alinhamento__data {
         max-width: 477px;
         width: 100%;
+    } 
+
+    .botao_cadastrar{
+        width: 90px;
+        font-size: 13px
     }
 
 }

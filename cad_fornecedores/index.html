@@ -15,53 +15,40 @@
     <header><!--cabecalho-->
         <nav class="botao_nav">
             <img class="logo" src="../img/logo.png" alt="">
-            <h1>Cadastro - Fornecedores</h1>
+            <h1> Cadastro de Fornecedores </h1>
             <a class="botao_fechar" href="fechar">
-                <svg xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
-                    <path
-                        d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></svg>
             </a>
         </nav>
-    </header>
+</header>
 
-    <main class="banner"><!--indica o conteudo principal-->
-        <aside class="posiciomaneto_menu">
-            <a id="menu_barras" aria-label="abrir menu" aria-controls="menu_lateral" aria-expanded="false"
-                aria-haspopup="true" class="menu_barras" href="#" onclick="mostrarMenu()">
-                <svg width="170" height="90" viewBox="0 0 170 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="85" cy="45" r="44" stroke="white" stroke-width="2" />
-                    <line y1="44" x2="170" y2="44" stroke="white" stroke-width="2" />
-                    <line x1="85.7107" y1="15.9578" x2="71.7107" y2="30.0999" stroke="white" stroke-width="2" />
-                    <line x1="99.0473" y1="30.2158" x2="84.5387" y2="15.7072" stroke="white" stroke-width="2" />
-                    <line x1="85.0437" y1="73.5508" x2="99.0437" y2="59.4087" stroke="white" stroke-width="2" />
-                    <line x1="71.7071" y1="59.2929" x2="86.2157" y2="73.8015" stroke="white" stroke-width="2" />
-                </svg>
-            </a>
-            <nav id="menu_lateral" class="menu_lateral">
-                <a href=""> <img src="./img/menu_superior.png" alt=""></a>
+<main class="banner"><!--indica o conteudo principal-->
+     <aside class="posiciomaneto_menu">
+        <a id="menu_barras" aria-label="abrir menu" aria-controls="menu_lateral" aria-expanded="false" aria-haspopup="true" class="menu_barras"  href="#" onclick="mostrarMenu()">
+            <svg width="170" height="90" viewBox="0 0 170 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="85" cy="45" r="44" stroke="white" stroke-width="2"/>
+<line y1="44" x2="170" y2="44" stroke="white" stroke-width="2"/>
+<line x1="85.7107" y1="15.9578" x2="71.7107" y2="30.0999" stroke="white" stroke-width="2"/>
+<line x1="99.0473" y1="30.2158" x2="84.5387" y2="15.7072" stroke="white" stroke-width="2"/>
+<line x1="85.0437" y1="73.5508" x2="99.0437" y2="59.4087" stroke="white" stroke-width="2"/>
+<line x1="71.7071" y1="59.2929" x2="86.2157" y2="73.8015" stroke="white" stroke-width="2"/>
+</svg>
+         </a>
+             <nav id="menu_lateral" class="menu_lateral">
+            <a href=""> <img src="../img/menu_superior.png" alt=""></a>
 
-                <a id="menu_cadastro_aberto" aria-label="abrir menu" aria-controls="menu_lateral_cadastro"
-                    aria-expanded="false" aria-haspopup="true" class="menu_cadastro_aberto" href="#"
-                    onclick="mostrar_menu_cadastro()">cadastros > </a>
-                <hr />
-                <a id="menu_estoque_aberto" aria-label="abrir menu" aria-controls="menu_lateral_estoque"
-                    aria-expanded="false" aria-haspopup="true" class="menu_estoque_aberto" href="#"
-                    onclick="mostrar_menu_estoque()">estoque > </a>
-                <hr />
-                <a id="menu_pedido_aberto" aria-label="abrir menu" aria-controls="menu_lateral_pedidos"
-                    aria-expanded="false" aria-haspopup="true" class="menu_pedido_aberto" href="#"
-                    onclick="mostrar_menu_pedidos()">pedidos ></a>
-                <hr />
-                <a id="menu_relatorios_aberto" aria-label="abrir menu" aria-controls="menu_lateral_relatorios"
-                    aria-expanded="false" aria-haspopup="true" class="menu_relatorios_aberto" href="#"
-                    onclick="mostrar_menu_relatorios()">relatórios ></a>
-                <hr />
-                <a href="../log_in/index.html">sair</a>
-                <a href=""> <img src="./img/menu_inferior.png" alt=""></a>
-            </nav>
-        </aside>
+             <a id="menu_cadastro_aberto" aria-label="abrir menu" aria-controls="menu_lateral_cadastro" aria-expanded="false" aria-haspopup="true" class="menu_cadastro_aberto"  href="#" onclick="mostrar_menu_cadastro()">cadastros > </a>
+            <hr  />
+            <a id="menu_estoque_aberto" aria-label="abrir menu" aria-controls="menu_lateral_estoque" aria-expanded="false" aria-haspopup="true" class="menu_estoque_aberto"  href="#" onclick="mostrar_menu_estoque()">estoque > </a>
+            <hr />
+            <a  id="menu_pedido_aberto" aria-label="abrir menu" aria-controls="menu_lateral_pedidos" aria-expanded="false" aria-haspopup="true" class="menu_pedido_aberto"  href="#" onclick="mostrar_menu_pedidos()">pedidos ></a>
+            <hr />
+            <a id="menu_relatorios_aberto" aria-label="abrir menu" aria-controls="menu_lateral_relatorios" aria-expanded="false" aria-haspopup="true" class="menu_relatorios_aberto"  href="#" onclick="mostrar_menu_relatorios()">relatórios ></a>
+            <hr />
+            <a href="">sair</a>
+            <a href=""> <img src="../img/menu_inferior.png" alt=""></a>
+        </nav> 
+    </aside> 
         <!-- MENU CADASTROS -->
         <aside class="posiciomaneto_menu_cadastro">
             <nav id="menu_lateral_cadastro" class="menu_lateral_cadastro">
@@ -107,33 +94,32 @@
         <section class="section__formulario"><!--tag section indica uma secao-->
             <form class="formulario-central">
                 <div class="div__alinhamento_campos">
-                    <label for="ID">ID: </label>
-                    <input type="text" name="ID" id="">
+                    <label for="input__id">Id:</label>
+                    <input type="text" name="input__id" id="">
                 </div>
                 <div class="div__alinhamento_campos">
-                    <label for="input__nome">Nome: </label>
+                    <label for="input__nome">Nome:</label>
                     <input type="text" name="input__nome" id="">
                 </div>
-
                 <div class="div__alinhamento_campos">
-                    <label for="input__cnpj">CNPJ: </label>
+                    <label for="input__cnpj">CNPJ:</label>
                     <input type="text" name="input__cnpj" id="">
                 </div>
                 <div class="div__alinhamento_campos">
-                    <label for="input__ie">IE: </label>
+                    <label for="input__ie">IE:</label>
                     <input type="text" name="input__ie" id="">
                 </div>
                 <div class="div__alinhamento_campos">
-                    <label for="input__razao">Razão Social: </label>
-                    <input type="text" name="input__razao" id="">
+                    <label for="input__rs">Razão Social:</label>
+                    <input type="text" name="input__rs" id="">
                 </div>
                 <div class="div__alinhamento_campos">
-                    <label for="input__email">Email: </label>
-                    <input type="email" name="input__email" id="">
+                    <label for="input__E-mail">E-mail:</label>
+                    <input type="email" name="input__E-mail" id="">
                 </div>
                 <div class="div__alinhamento_campos">
-                    <label for="input__endereco">Endereço: </label>
-                    <input type="text" name="input__endereco" id="">
+                    <label for="input__end">Endereço:</label>
+                    <input type="text" name="input__end" id="">
                 </div>
                 <button class="botao_cadastrar" type="submit">Cadastrar</button>
             </form>

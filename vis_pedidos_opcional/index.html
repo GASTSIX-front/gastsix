@@ -105,50 +105,34 @@
             </nav>
         </aside>
 
-        <section class="section__formulario"><!--tag section indica uma secao-->
-            <form class="formulario-central">
-
-
-                <div class="alinhamento">
-                    <div class="div__alinhamento_campos">
-                        <label for="input__srcdtinicial">Data Inicial: </label>
-                        <input type="date" name="input__srcdtinicial" id="">
+        <section class="section_formulario"><!--tag section indica uma secao-->
+            <form class="formulario_central">
+                <div class="div_alinhamento_data_pedidos">
+                    <div class="div_alinhamento_data">
+                        <label for="input_data">Data Inicial:</label>
+                        <input  type="date" name="input_data" id="">
                     </div>
-
-                    <div class="div__alinhamento_campos">
-                        <label for="input__srcdtfinal">Data Final: </label>
-                        <input type="date" name="input__srcdtfinal" id="">
+                    <div class="div_alinhamento_data">
+                        <label for="input_data">Data Final:</label>
+                        <input type="date" name="input_data" id="">
                     </div>
-
-                    <div class="div__alinhamento_campos">
-                        <label for="input__srcpedido">Pedido: </label>
-                        <input type="number" name="input__srcpedido" id="">
+                    <div class="div_alinhamento_porpedidos">
+                        <label for="input_porpedidos">Por pedido:</label>
+                        <input type="text" name="input_porpedidos" id="">
                     </div>
                 </div>
 
-
-
-                <div class="PDF">
-                    <table cellpadding="0" cellspacing="0" width="50%" height="50%">
-                        <tr>
-                            <td>
-                                <iframe src="issues/vis_pedidos.pdf" width="600" height="600" style="border: none;">
-                                </iframe>
-                            </td>
-                        </tr>
-                    </table>
-
+                 <div class="div_pdf">
+                    <iframe src="issues/vis_pedidos.pdf" width="600" height="600" style="border: none;">
+                    </iframe>
                 </div>
 
-                <div class="btn">
-                    <button class="botao_gerarXLS" type="submit">Gerar XLS</button>
-                    <button class="botao_gerarPDF" type="submit">Gerar PDF</button>
+                <div class="div_alinhamento_botao">
+                    <button class="botao_gerar" type="submit">Gerar xml</button>
+                    <button class="botao_gerar" type="submit">Gerar pdf</button>
                 </div>
             </form>
-
         </section>
+
     </main>
-
 </body>
-
-</html>

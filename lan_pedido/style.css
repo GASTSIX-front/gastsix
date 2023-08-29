@@ -49,7 +49,6 @@ header {
 
 .banner {
     background-image: url(../img/background.png);
-    /* height: auto; */
     height: 944px;
     background-size: cover;
     justify-content: center;
@@ -66,228 +65,231 @@ header {
     align-items: center;
     width: 350px;
 }
-
 .posiciomaneto_menu img {
     width: 100px;
-}
-
-.menu_barras {
+}  
+.menu_barras{
     position: absolute;
     left: 40px;
     top: 140px;
-    display: initial;
+    display: initial;  
 }
-
-.menu_lateral {
+.menu_lateral{
     background: radial-gradient(50% 50% at 50% 50%, rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
-    backdrop-filter: blur(48.5px);
+    backdrop-filter: blur(48.5px); 
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
+    display: none;    
     z-index: 1;
     position: absolute;
     left: 30px;
-    top: 100px;
+    top: 100px; 
     font-weight: bold;
-}
-
+} 
 .menu_lateral a {
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
-    font-size: 20PX;
-}
-
-.menu_lateral a img {
+    font-size: 20PX; 
+} 
+.menu_lateral a img{
     width: 100%;
 }
-
 hr {
     width: 90px;
     height: 2px;
     background-color: var(--branco);
 }
-
-.menu_barras svg {
+.menu_barras svg{
     height: 60px;
 }
 
 /*MENU CADASTRO*/
 
-.menu_lateral_cadastro {
+.menu_lateral_cadastro{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
-    backdrop-filter: blur(48.5px);
+    backdrop-filter: blur(48.5px);  
     border-radius: 5%;
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
+    display: none;  
+    z-index: 1; 
     position: absolute;
     left: 230px;
-    top: 220px;
+    top: 220px;  
     font-weight: bold;
     border: 1px solid var(--branco);
-}
-
+} 
 .menu_lateral_cadastro a {
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
-    font-size: 15px;
-}
+    font-size: 15px; 
+} 
 
 /*MENU ESTOQUE*/
-
-.menu_lateral_estoque {
+ 
+.menu_lateral_estoque{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
-    backdrop-filter: blur(48.5px);
+    backdrop-filter: blur(48.5px); 
     border-radius: 5%;
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
     left: 230px;
-    top: 290px;
+    top: 290px;  
     font-weight: bold;
     border: 1px solid var(--branco);
-}
-
+} 
 .menu_lateral_estoque a {
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
-    font-size: 15px;
-}
+    font-size: 15px; 
+}  
 
 /*MENU PEDIDOS*/
-
-.menu_lateral_pedidos {
+ 
+.menu_lateral_pedidos{
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
-    backdrop-filter: blur(48.5px);
-    border-radius: 5%;
+    backdrop-filter: blur(48.5px); 
+    border-radius: 5%; 
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;  
+     z-index: 1; 
+     position: absolute;
     left: 230px;
-    top: 360px;
+    top: 360px;  
     font-weight: bold;
-    border: 1px solid var(--branco);
-
-}
-
+    border: 1px solid var(--branco);   
+} 
 .menu_lateral_pedidos a {
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
-    font-size: 15px;
-}
+    font-size: 15px; 
+} 
 
 /*MENU RELATORIOS*/
-
+ 
 .menu_lateral_relatorios {
     background: radial-gradient(rgba(0, 99, 132, 0.24) 81.56%, rgba(0, 99, 132, 0) 130%);
-    backdrop-filter: blur(48.5px);
-    border-radius: 5%;
+    backdrop-filter: blur(48.5px);  
+    border-radius: 5%; 
     font-family: var(--font1);
     flex-direction: column;
     align-items: center;
-    display: none;
-    z-index: 1;
-    position: absolute;
+     display: none;
+     z-index: 1; 
+     position: absolute;
     left: 230px;
-    top: 420px;
+    top: 420px;  
     font-weight: bold;
     border: 1px solid var(--branco);
-}
-
+} 
 .menu_lateral_relatorios a {
     color: var(--branco);
     text-transform: uppercase;
     text-decoration: none;
     padding: 20px;
-    font-size: 15px;
-}
-
+    font-size: 15px; 
+} 
 /* FINAL MENU INTERATIVO*/
 
-
-/*Formulario*/
-.lancar_section_formulario {
+/* SECAO FORMULARIO*/
+.section__formulario {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
-    flex-direction: column;
+    width: 50%;
 }
-
-.lancar_formulario_central {
+.formulario-central {
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 90%;
     max-width: 700px;
-    justify-content: center;
-    flex-direction: column;
-
+    font-family: var(--font1);
 }
-
-.lancar_div__alinhamento_campos {
+.div__alinhamento_campos {
     display: flex;
     flex-direction: column;
-    font-family: var(--font1);
     font-size: 20px;
     width: 100%;
     color: var(--branco);
-    margin: 20px 0 0 0;
-}
+}  
 
-.lancar_div__alinhamento_campos input {
+.div__alinhamento_campos input {
+        margin-top: 11px;
+        margin-bottom: 28px;
+        background: rgba(255, 255, 255, 0.11);
+        backdrop-filter: blur(4px);
+        border-radius: 5px;
+        width: 100%;
+        height: 35px;
+        color: var(--branco);
+}
+.div__alinhamento_justificativa {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    width: 100%;
+    color: var(--branco);
+}  
+.div__alinhamento_justificativa input{
     margin-top: 11px;
-    margin-bottom: 35px;
+    margin-bottom: 28px;
     background: rgba(255, 255, 255, 0.11);
     backdrop-filter: blur(4px);
     border-radius: 5px;
     width: 100%;
-    height: 35px;
+    height: 150px;
     color: var(--branco);
-}
 
-.lancar_div__alinhamento_campos .justificativa {
-    width: 100%;
-    height: 200px;
 }
-
-.lancar_botao {
-    height: 40px;
-    width: 120px;
+.botao_lancar{
+    height: 50px;
+    width: 150px;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;
-    font-family: var(--font1);
-    margin: 0 0 -20px 0;
+    font-weight: bold; 
+    font-family: var(--font1); 
 }
-
 
 
 
 /*Respansividade*/
-
 @media screen and (max-width: 768px) {
 
-    h1{
-        font-size: 20px;
+    h1 {
+        font-size: 15px;
     }
+    .banner{
+        height: 1300px;
+    }
+    .botao_fechar svg {
+        height: 15px;
+    }
+     .div__alinhamento_campos{
+        font-size: 15px;
+    }
+    .div__alinhamento_justificativa{
+        font-size: 15px;
+    }
+
+   
     /* INICIO MENU INTERATIVO*/
     .menu_lateral{
         display: none;
@@ -298,7 +300,7 @@ hr {
         top: 90px; 
     }
     .menu_lateral a {
-        font-size: 15px;
+        font-size: 10px;
         padding: 10px;  
     }
     .menu_lateral a img{
@@ -307,9 +309,8 @@ hr {
     .menu_barras svg{
         height: 40px;
     }
-    
     .menu_lateral img {
-        width: 50px;
+        width: 80px;
     }
     .menu_barras{
         position: absolute;
@@ -336,7 +337,7 @@ hr {
     text-transform: uppercase;
     text-decoration: none;
     padding: 7px;
-    font-size: 12px; 
+    font-size: 10px; 
 } 
 
 /*MENU ESTOQUE*/
@@ -386,11 +387,17 @@ hr {
     padding: 7px;
     font-size: 10px; 
 } 
+/* FINAL MENU INTERATIVO*/
 
-.lancar_formulario_central{
-    width: 60%;
-}
-   /* FINAL MENU INTERATIVO*/
-    
+    /* FORMULARIO CENTRAL*/
+
+    .section__formulario {
+        width: 80%;
+    }
+    .botao_lancar{
+        width: 90px;
+        font-size: 13px
+    }
+
 }
 

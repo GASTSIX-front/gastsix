@@ -99,7 +99,6 @@ hr {
     height: 2px;
     background-color: var(--branco);
 }
-
 .menu_barras svg{
     height: 60px;
 }
@@ -153,6 +152,7 @@ hr {
     padding: 20px;
     font-size: 15px; 
 }  
+
 /*MENU PEDIDOS*/
  
 .menu_lateral_pedidos{
@@ -168,8 +168,7 @@ hr {
     left: 230px;
     top: 360px;  
     font-weight: bold;
-    border: 1px solid var(--branco);
-    
+    border: 1px solid var(--branco);   
 } 
 .menu_lateral_pedidos a {
     color: var(--branco);
@@ -241,12 +240,13 @@ hr {
     color: var(--branco); 
     font-size: 20px;
     width: 100%;
+    font-family: var(--font1);
 }
 
 .div_alinhamento_funcao_data .div_alinhamento_data{
     display: flex;
     flex-direction: column;
-    width: 35%;  
+    width: 35%
 }
 .div_alinhamento_funcao_data .div_alinhamento_data input{
     background-color: #006384; 
@@ -265,13 +265,12 @@ hr {
 }
 .botao_gerar{
     height: 50px;
-
-
     width: 40%;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 18px;
     text-transform: uppercase;
-    font-weight: bold;  
+    font-weight: bold; 
+    font-family: var(--font1); 
 }
 
 /*Respansividade*/
@@ -280,6 +279,16 @@ hr {
     h1{
         font-size: 15px;
     }
+    .banner{
+        height: 1100px;
+    }
+    .botao_fechar svg {
+        height: 15px;
+    } 
+    .div_alinhamento_funcao_data{ 
+        font-size: 15px;
+    } 
+
     /* INICIO MENU INTERATIVO*/
     .menu_lateral{
         display: none;
@@ -299,7 +308,6 @@ hr {
     .menu_barras svg{
         height: 40px;
     }
-    
     .menu_lateral img {
         width: 80px;
     }
@@ -378,7 +386,7 @@ hr {
     padding: 7px;
     font-size: 10px; 
 } 
-   /* FINAL MENU INTERATIVO*/
+/* FINAL MENU INTERATIVO*/
 
 /* FORMULARIO CENTRAL*/
 
@@ -412,6 +420,7 @@ hr {
 
     .botao_gerar{
         width: 100%;
+        font-size: 13px;
     }
 
 }

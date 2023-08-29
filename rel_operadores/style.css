@@ -241,6 +241,7 @@ hr {
     color: var(--branco); 
     font-size: 20px;
     width: 100%;
+    font-family: var(--font1);
 }
 
 .div_alinhamento_funcao_data .div_alinhamento_data{
@@ -265,19 +266,27 @@ hr {
 }
 .botao_gerar{
     height: 50px;
-
-
     width: 40%;
     border-radius: 10px;
-    font-size: 13px;
+    font-size: 15px;
     text-transform: uppercase;
-    font-weight: bold;  
+    font-weight: bold; 
+    font-family: var(--font1); 
 }
 
 /*Respansividade*/
 
 @media screen and (max-width: 768px) {
     h1{
+        font-size: 15px;
+    }
+    .banner{
+        height: 1100px ;
+    }
+    .botao_fechar svg {
+        height: 15px;
+    }
+    .div_alinhamento_funcao_data{
         font-size: 15px;
     }
     /* INICIO MENU INTERATIVO*/

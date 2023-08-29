@@ -45,7 +45,6 @@ header {
 
 .banner {
     background-image: url(../img/background.png); 
-     /* height: auto;  */
     height: 944px;
     background-size: cover;
     justify-content: center;
@@ -289,23 +288,32 @@ table * {
     h1{
         font-size: 20px;
     }
-
-    h2{
+     h2{
         font-size: 18px;
+    } 
+    .banner{
+        height: 1200px;
     }
-
-    .botao_nav{
-        width: 90%;
+    .botao_fechar svg {
+        height: 15px;
     }
-
-    .aj_div__alinhamento_campos_quantidade{
-        font-size: 16px;
+    .aj_formulario-central{
+        display: flex;
+        flex-direction: column;
     }
-
+    .aj_div__alinhamento_campos input { 
+        width:100%;
+    }
     .aj_botao{
-        width: 18%;
         font-size: 12px;
+        margin: 0 0 30px 0;
     }
+    .aj_div__alinhamento_campos_quantidade {
+        font-size: 13px;
+    }
+    
+
+
     /* INICIO MENU INTERATIVO*/
     .menu_lateral{
         display: none;
